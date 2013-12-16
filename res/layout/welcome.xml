@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome_bg"
+    android:gravity="top"
+    android:orientation="vertical" >
+    
+   <LinearLayout android:layout_alignParentBottom="true"
+                 android:layout_marginBottom="100dip"
+                 android:orientation="horizontal"
+			     android:gravity="center_horizontal"
+				 android:layout_width="fill_parent"
+			     android:layout_height="wrap_content">
+				 
+   <Button android:id="@+id/search_button"
+			 android:layout_width="145dip"
+			 android:layout_height="wrap_content" 
+			 android:gravity="center"
+			 android:text="直接搜索"
+			 android:textColor="@color/white" 
+			 android:textSize="18sp" 
+			 android:background="@drawable/btn_blue" />
+   
+    <Button android:id="@+id/qrcode_button"
+			 android:layout_width="145dip"
+			 android:layout_height="wrap_content" 
+			 android:gravity="center"
+			 android:text="二维码扫描"
+			 android:textColor="@color/white" 
+			 android:textSize="18sp" 
+			 android:background="@drawable/btn_blue" />
+     
+   </LinearLayout>
+   
+</RelativeLayout>
