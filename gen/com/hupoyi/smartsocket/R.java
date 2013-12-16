@@ -15,49 +15,56 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int about_version_color=0x7f050021;
-        public static final int background_color=0x7f05001d;
-        public static final int black=0x7f050001;
-        public static final int blue=0x7f050004;
-        public static final int brand_gallery_blue=0x7f050009;
-        public static final int brand_gallery_gray=0x7f050008;
-        public static final int classify_search_background_color=0x7f050020;
-        public static final int commodity_sort_chooce_blue=0x7f050013;
-        public static final int dialog_title_color=0x7f050022;
-        public static final int fullnull=0x7f050016;
-        public static final int gray=0x7f050002;
-        public static final int green_for_coupon=0x7f050014;
-        public static final int home_list_color=0x7f050018;
-        public static final int indent_gray=0x7f05000d;
-        public static final int light_blue=0x7f05000c;
-        public static final int menu_background_color=0x7f05001e;
-        public static final int menu_textcolor=0x7f050017;
-        public static final int note_gray=0x7f05000b;
-        public static final int orange=0x7f050003;
+        public static final int about_version_color=0x7f060021;
+        public static final int background_color=0x7f06001d;
+        public static final int black=0x7f060001;
+        public static final int blue=0x7f060004;
+        public static final int brand_gallery_blue=0x7f060009;
+        public static final int brand_gallery_gray=0x7f060008;
+        public static final int classify_search_background_color=0x7f060020;
+        public static final int commodity_sort_chooce_blue=0x7f060013;
+        public static final int dialog_title_color=0x7f060022;
+        public static final int fullnull=0x7f060016;
+        public static final int gray=0x7f060002;
+        public static final int green_for_coupon=0x7f060014;
+        public static final int home_list_color=0x7f060018;
+        public static final int indent_gray=0x7f06000d;
+        public static final int light_blue=0x7f06000c;
+        public static final int menu_background_color=0x7f06001e;
+        public static final int menu_textcolor=0x7f060017;
+        public static final int note_gray=0x7f06000b;
+        public static final int orange=0x7f060003;
         /**  end yuanshouhui 
  start by zhufanyu 
          */
-        public static final int pink=0x7f05000f;
-        public static final int productlist_title_gray=0x7f050012;
-        public static final int red=0x7f050005;
-        public static final int shopping_conpan=0x7f05001f;
-        public static final int shopping_indent_address_gray=0x7f050011;
-        public static final int spikeare_nodata_text_color=0x7f05001c;
-        public static final int spikeare_spik_color=0x7f05001a;
-        public static final int spikeare_text_gray=0x7f050019;
-        public static final int spikeare_time_blue=0x7f050015;
-        public static final int spikearedetail_productname_color=0x7f05001b;
-        public static final int title_gray=0x7f05000a;
+        public static final int pink=0x7f06000f;
+        /**   start qrcode color by shangtao 
+         */
+        public static final int possible_result_points=0x7f060023;
+        public static final int productlist_title_gray=0x7f060012;
+        public static final int red=0x7f060005;
+        public static final int result_view=0x7f060026;
+        public static final int shopping_conpan=0x7f06001f;
+        public static final int shopping_indent_address_gray=0x7f060011;
+        public static final int spikeare_nodata_text_color=0x7f06001c;
+        public static final int spikeare_spik_color=0x7f06001a;
+        public static final int spikeare_text_gray=0x7f060019;
+        public static final int spikeare_time_blue=0x7f060015;
+        public static final int spikearedetail_productname_color=0x7f06001b;
+        public static final int title_gray=0x7f06000a;
         /**  end by wangyuwei 
  start yuanshouhui 
          */
-        public static final int transparence_bg=0x7f05000e;
-        public static final int transparent=0x7f050006;
-        public static final int transparent_gray=0x7f050007;
+        public static final int transparence_bg=0x7f06000e;
+        public static final int transparent=0x7f060006;
+        public static final int transparent_gray=0x7f060007;
+        public static final int viewfinder_frame=0x7f060024;
+        public static final int viewfinder_laser=0x7f060025;
+        public static final int viewfinder_mask=0x7f060027;
         /**  start by wangyuwei 
          */
-        public static final int white=0x7f050000;
-        public static final int yellow=0x7f050010;
+        public static final int white=0x7f060000;
+        public static final int yellow=0x7f060010;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -66,8 +73,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
     }
     public static final class drawable {
         public static final int background=0x7f020000;
@@ -83,33 +90,54 @@ public final class R {
         public static final int welcome_bg=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000b;
-        public static final int back=0x7f0a0008;
-        public static final int btn=0x7f0a0002;
-        public static final int info=0x7f0a0000;
-        public static final int link=0x7f0a0001;
-        public static final int next=0x7f0a0003;
-        public static final int qrcode_button=0x7f0a000a;
-        public static final int search_btn=0x7f0a0006;
-        public static final int search_button=0x7f0a0009;
-        public static final int search_edit=0x7f0a0005;
-        public static final int search_layout=0x7f0a0004;
-        public static final int send=0x7f0a0007;
+        public static final int action_settings=0x7f08001a;
+        /**  Messages IDs 
+         */
+        public static final int auto_focus=0x7f080000;
+        public static final int back=0x7f080017;
+        public static final int btn=0x7f080011;
+        public static final int decode=0x7f080001;
+        public static final int decode_failed=0x7f080002;
+        public static final int decode_succeeded=0x7f080003;
+        public static final int encode_failed=0x7f080004;
+        public static final int encode_succeeded=0x7f080005;
+        public static final int info=0x7f08000f;
+        public static final int launch_product_query=0x7f080006;
+        public static final int link=0x7f080010;
+        public static final int next=0x7f080012;
+        public static final int preview_view=0x7f08000c;
+        public static final int qrcode_button=0x7f080019;
+        public static final int quit=0x7f080007;
+        public static final int restart_preview=0x7f080008;
+        public static final int return_scan_result=0x7f080009;
+        public static final int search_book_contents_failed=0x7f08000a;
+        public static final int search_book_contents_succeeded=0x7f08000b;
+        public static final int search_btn=0x7f080015;
+        public static final int search_button=0x7f080018;
+        public static final int search_edit=0x7f080014;
+        public static final int search_layout=0x7f080013;
+        public static final int send=0x7f080016;
+        public static final int txtResult=0x7f08000e;
+        public static final int viewfinder_view=0x7f08000d;
     }
     public static final class layout {
-        public static final int common_listview=0x7f030000;
-        public static final int main_activity=0x7f030001;
-        public static final int search_layout=0x7f030002;
-        public static final int second_layout=0x7f030003;
-        public static final int welcome=0x7f030004;
+        public static final int activity_decode=0x7f030000;
+        public static final int common_listview=0x7f030001;
+        public static final int main_activity=0x7f030002;
+        public static final int search_layout=0x7f030003;
+        public static final int second_layout=0x7f030004;
+        public static final int welcome=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f090000;
+        public static final int main=0x7f0b0000;
+    }
+    public static final class raw {
+        public static final int beep=0x7f050000;
     }
     public static final class string {
-        public static final int action_settings=0x7f070001;
-        public static final int app_name=0x7f070000;
-        public static final int hello_world=0x7f070002;
+        public static final int action_settings=0x7f090001;
+        public static final int app_name=0x7f090000;
+        public static final int hello_world=0x7f090002;
     }
     public static final class style {
         /** 
@@ -133,10 +161,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
+        public static final int AppTheme=0x7f0a0001;
     }
 }

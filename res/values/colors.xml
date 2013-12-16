@@ -40,4 +40,11 @@
 	<color name="classify_search_background_color">#f0f0f0</color>
 	<color name="about_version_color">#8c8c8c</color>
 	<color name="dialog_title_color">#a2b8d3</color>
+	<!--  start qrcode color by shangtao -->
+	<color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+	<!--  end qrcode color by shangtao -->
 </resources>

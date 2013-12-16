@@ -33,7 +33,9 @@ public class SmartSocket extends Activity {
 	// Array adapter for the PairedDevices
     private ArrayAdapter<String> mPairedDevicesArrayAdapter;
     // UI 
+	private Intent mIntent = null;
     private TextView info = null;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -127,6 +129,11 @@ public class SmartSocket extends Activity {
 	}
 	
     private void InitUI() {
+    	/* 获取Intent对象和数据 */
+        mIntent  = this.getIntent();
+        if (null != mIntent) { address = mIntent.getStringExtra(BluetoothService.EXTRA_DEVICE_ADDRESS); }
+        mBluethoothService.connect(mBluetoothAdapter.getRemoteDevice(address));
+        
     	info = (TextView) super.findViewById(R.id.info);
     	Button link = (Button) super.findViewById(R.id.link);
     	link.setOnClickListener(new OnClickListener(){
@@ -134,7 +141,7 @@ public class SmartSocket extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				mBluethoothService.connect(mBluetoothAdapter.getRemoteDevice(address));
+				//mBluethoothService.connect(mBluetoothAdapter.getRemoteDevice(address));
 			}
     		
     	});
@@ -156,7 +163,7 @@ public class SmartSocket extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(SmartSocket.this, SecondActivity.class);
 				SmartSocket.this.startActivity(intent);  // 启动其它Activity
-				overridePendingTransition(R.anim.zoomin, R.anim.zoomout);
+				//overridePendingTransition(R.anim.zoomin, R.anim.zoomout);
 			}
     		
     	});

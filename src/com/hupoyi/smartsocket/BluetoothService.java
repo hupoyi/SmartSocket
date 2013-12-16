@@ -38,7 +38,10 @@ import android.util.Log;
 
 
 public class BluetoothService { 
-	private static final String TAG = "BlueToothService"; 
+	private static final String TAG = "BlueToothService";
+	// Return Intent extra
+    public static String EXTRA_DEVICE_ADDRESS = "device_address";
+    
 	// Unique UUID for this application
     private static final UUID MY_UUID_SECURE =
         UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");

@@ -66,7 +66,7 @@ public class welcome extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(welcome.this, SmartSocket.class);
+				Intent intent = new Intent(welcome.this, CaptureActivity.class);
 				welcome.this.startActivity(intent);   // ∆Ù∂Ø∆‰À¸Activity
 				overridePendingTransition(R.anim.zoomin, R.anim.zoomout);
 				//finish();
